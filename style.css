@@ -289,16 +289,18 @@ td, th {
 /*Bắt đầu phần content*/
 
 /*Bắt đầu phần Zingchart*/
-.container-content {
-	border: 1px solid grey;
-	height: 700px;
+.container-zingchart {
+	border: 1px solid #80808030;
+	border-bottom: none;
+	height: 660px;
 	padding: 0px;
 	display: flex;
 	justify-content: center;
+	background-color: #ffffff;
 }
 
 .content {
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid #80808030;
 	height: 100%;
 	width: 90%;
 }
@@ -368,7 +370,9 @@ td, th {
 	border: 2px solid black;
 }
 
-.bellow-zingchart-week .row {
+.bellow-zingchart-week {
+	display: flex;
+	justify-content: space-between;
 	margin: 0px;
 }
 
@@ -511,7 +515,7 @@ td, th {
 .box {
 	overflow: hidden;
 	border-radius: 5px;
-	width: 200px;
+	width: 205px;
   	padding: 0px;
   	height: 120px;
 }
@@ -528,30 +532,32 @@ td, th {
 
 /*Bắt đầu top 100*/
 .container-top100 {
-    border: 1px solid grey;
-    height: 700px;
+    border: 1px solid #80808030;
+    border-top: none;
+    border-bottom: none;
     padding: 0px;
     display: flex;
     justify-content: center;
+    background-color: #fafafa;
 }
-.top100 {
-    border-bottom: 2px solid red;
-    height: 645px;
+.container-top100 .top100 {
+    border-bottom: 1px solid #80808030;
+    height: 630px;
     width: 90%;
 }
-.top100 .title-top100 {
+.container-top100 .top100 .title-top100 {
 	margin: 20px 0px 20px 0px;
 }
 
-.top100 .title-top100 a {
+.container-top100 .top100 .title-top100 a {
 	color: #32323dc9;
 	font-size: 21px;
 	font-weight: 700;
 	text-decoration: none;
 }
 
-.top100-row1 .row, 
-.top100-row2 .row {
+.top100-row1, 
+.top100-row2 {
   margin: 0px 0px 20px 0px;
   display: flex;
   justify-content: space-between;
@@ -563,18 +569,18 @@ td, th {
   transition: 800ms;
 }
 
-.rap-music {
+.album-top100 .cart {
   overflow: hidden;
   border-radius: 5px;
-  width: 200px;
+  width: 205px;
   padding: 0px;
-  height: 200px;
+  height: 205px;
 }
 
-.rap-music img {
+.album-top100 .cart img {
   transition: 800ms;
 }
-.rap-music img {
+.album-top100 .cart img {
   width: 205px;
   height: 205px;
 }
@@ -593,20 +599,21 @@ td, th {
 .album-top100 .title a:hover {
   color: #b642e4;
 }
-/*Kết thúc phần ZingChart*/
+/*Kết thúc phần TOP100*/
 
 /*Bắt đầu phần Bài Hát Mới*/
 
 .container-newsong {
-    border: 1px solid grey;
-    height: 700px;
+    border: 1px solid #80808030;
+    border-top: none;
+    border-bottom: none;
+    background-color: #fafafa;
     padding: 0px;
     display: flex;
     justify-content: center;
 }
 
 .sub-container {
-    border: 1px solid red;
     height: 400px;
     width: 90%;
 }
@@ -625,7 +632,7 @@ td, th {
 .box-title .listen-all {
   position: absolute;
   top: 10px;
-  right: 20px;
+  right: 0px;
   background-color: #65509e;
   padding: 4.5px;
   border-radius: 5px;
@@ -653,9 +660,9 @@ td, th {
 .box-newsong .row {
   margin: 0px;
 }
-.left-album {
+.left-album, 
+.right-album {
   padding: 0px;
-  border-right: 1px solid orange;
 }
 
 .box-newsong ul {
@@ -663,7 +670,6 @@ td, th {
   padding: 0px;
 }
 
-/*--------------------------------------------*/
 .box-newsong li {
   height: 52px;
   widows: 100%;
@@ -708,7 +714,7 @@ td, th {
   width: 96%;
   background-size: 100% 100%;
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
   margin-left: 9px;
 }
@@ -764,7 +770,8 @@ td, th {
   font-weight: 600;
 }
 
-.overlay {
+.box-newsong .overlay {
+  border-radius: 3px;
   display: flex;
   position: absolute;
   left: 0px;
@@ -819,6 +826,122 @@ td, th {
 }
 
 /*Kết thúc phần Bài Hát Mới*/
+
+/*Bắt đầu chủ đề và thể loại*/
+
+.container-category {
+  background-color: #fafafa;
+  border: 1px solid #80808030;
+  border-top: none;
+  border-bottom: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+.category {
+  position: relative;
+  background-color: white;
+  height: 405px;
+  width: 90%;
+}
+
+.category .title-category { 
+  display: flex;
+  margin: 10px 0px 20px 0px;
+}
+.category .title-category i {
+  margin-left: 10px;
+}
+
+.category .title-category a {
+  color: #32323dc9;
+  font-size: 21px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.category .right-title-category {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  right: 30px;
+}
+.category .right-title-category #selective {
+  color: #7330afc2;
+}
+.category .right-title-category a {
+  margin-left: 40px;
+  color: #b7b7b7;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.category .right-title-category a:hover {
+  color: #7330afc2;
+}
+
+.category-row1, 
+.category-row2 {
+  margin-bottom: 57px;
+  display: flex;
+  justify-content: space-between;
+  /*align-items: stretch;*/
+  width: 100%;
+}
+
+.album-category {
+  position: relative;
+}
+
+.album-category .cart img {
+  width: 205px;
+  height: 205px;
+}
+
+.album-category:hover img {
+  transform: scale(1.05, 1.05);
+}
+
+.album-category .overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(50,59,181,0.7791491596638656) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,0.03125) 0%, rgba(0,0,0,0.7371323529411764) 100%);
+}
+
+.album-category .overlay h4 {
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  top: 60%;
+  margin: 0px;
+  transition: 800ms;
+}
+
+.album-category .overlay:hover h4 {
+  top: 50%;
+}
+
+.album-category .cart {
+  overflow: hidden;
+  border-radius: 3px;
+  width: 205px;
+  padding: 0px;
+  height: 126px;
+}
+
+.album-category .cart img {
+  transition: 800ms;
+  width: 205px;
+  height: 205px;
+}
+
+/*Kết thúc chủ đề và thể loại*/
 
 /*Kết thúc phàn content*/
 
