@@ -513,6 +513,7 @@ td, th {
 }
 
 .box {
+  background-size: contain;
 	overflow: hidden;
 	border-radius: 5px;
 	width: 205px;
@@ -521,6 +522,8 @@ td, th {
 }
 
 .box img {
+  width: 205px;
+  height: 135px;
 	transition: 800ms;
 }
 
