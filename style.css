@@ -708,46 +708,38 @@ td, th {
   margin-left: 9px;
 }
 
+.new-album .img {
+  background-size: 100% 100%;
+}
 .hon-ca-may-troi .img {
   background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/f/a/d/7/fad79ac18dc0edc4a5dfac2ff62c6757.jpg');
-  background-size: 100% 100%;
 }
 
 .em-dep-nhat-dem-nay .img {
   background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/c/0/b/3/c0b398f44795856809fe03f5f9cbcd5e.jpg');
-  background-size: 100% 100%;
 }
 .dung-luc-gap-nguoi .img {
   background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/7/d/8/a/7d8adcd03147f884cc61c895d02b9d0a.jpg');
-  background-size: 100% 100%;
-}
 .oh-my-heart .img {
   background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/0/a/7/0/0a708983822f575f300714eada3c7c10.jpg');
-  background-size: 100% 100%;
 }
 .de-thuong .img {
   background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/e/e/8/4/ee844810fbb2e6013f416c00b1c74cd6.jpg');
-  background-size: 100% 100%;
 }
 .nhan-lai-nuoc-mat .img {
   background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/e/f/0/8/ef084997b529409c95b39ee775c62a42.jpg');
-  background-size: 100% 100%;
 }
 .tinh-dep-la-tinh-buon .img {
   background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/b/4/2/4/b42454fffd6b159a80ac228a82a7a990.jpg');
-  background-size: 100% 100%;
 }
 .yeu-mot-nguoi-khac .img {
   background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/9/f/3/f/9f3f10115b303c08ee88b83c65ca8bcc.jpg');
-  background-size: 100% 100%;
 }
 .thang-hau .img {
   background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/1/e/0/1/1e01190e6d52b69fbdf0be0a2387137c.jpg');
-  background-size: 100% 100%;
 }
 .anh-da-sai .img {
   background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/5/9/b/4/59b4b73fe651bdd7e98dc04f9f8d492c.jpg');
-  background-size: 100% 100%;
 }
 
 .title-artist {
