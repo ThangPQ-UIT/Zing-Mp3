@@ -89,7 +89,6 @@
 	color: rgba(146, 146, 157, 0.8);
 	font-size: 14px;
 	font-weight: 600;
-	/*padding: 20px 15px 15px 15px;*/
 	text-decoration: none;
 }
 
@@ -102,7 +101,6 @@
 .navb-child a {
 	display: block;
 	padding: 20px 14px 12px 14px;
-	/*padding-bottom: 30px;*/
 }
 
 .navb-child a:hover {
@@ -245,44 +243,32 @@ td, th {
 	align-items: flex-end;
 }
 
+.song {
+  height: 55px;
+  width: 55px;
+  background-size: 100% 100%;
+  margin: 0px 10px 10px 0px;
+}
+
 .song1 {
-	height: 55px;
-	width: 55px;
 	background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/avatars/a/a/b/d/aabd06b213821214df66ec101d114c3d.jpg');
-	background-size: 100% 100%;
-	margin: 0px 10px 10px 0px;
 }
 
 .song2 {
-	height: 55px;
-	width: 55px;
 	background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/avatars/4/e/0/6/4e064ae0b708b1c5535e1cc2630ec662.jpg');
-	background-size: 100% 100%;
-	margin: 0px 10px 10px 0px;
+	
 }
 
 .song3 {
-	height: 55px;
-	width: 55px;
 	background-image: url(https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/avatars/2/6/c/b/26cbb27c21e6065c35bbcb942987ca0b.jpg);
-	background-size: 100% 100%;
-	margin: 0px 10px 10px 0px;
 }
 
 .song4 {
-	height: 55px;
-	width: 55px;
-	background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/avatars/5/7/e/4/57e408088e1fa391b0215f63ade74c32.jpg'); 
-	background-size: 100% 100%;
-	margin: 0px 10px 10px 0px;
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/avatars/5/7/e/4/57e408088e1fa391b0215f63ade74c32.jpg');
 }
 
 .song5 {
-	height: 55px;
-	width: 55px;
 	background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/avatars/2/3/0/d/230dd5d73edcab7785cc7120a5e52e64.jpg');
-	background-size: 100% 100%;
-	margin: 0px 10px 10px 0px;
 }
 /*Kết thúc phần Banner*/
 
